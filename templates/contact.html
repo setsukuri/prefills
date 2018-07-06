@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}
+    <title>a survey</title>
+{% endblock %}
+{% block body %}
+    <h1>Sign up for something</h1>
+    <h2>This collects statistics related to where people are from</h2>
+    <form action = "/registered" method = "post" style = "text-align: center">
+        <input name = "name" placeholder = "Enter name" type = "text"/>
+        <select name = "where" size="1" onchange="windows.location.href=this.value;" style="width: 20%; height: 20%" placeholders = "Where are you from?">
+            <option disabled selected value="">Select where you are from</option>
+            <option value = "United States">United States</option>
+            <option value = "China">China</option>
+            <option value = "Other">Other</option>
+        </select>
+        <input name = "otherpays" placeholder = "Enter other country" type = text/>
+        <input type = "submit" value = "register">
+    </form>
+{% endblock %}

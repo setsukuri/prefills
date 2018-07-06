@@ -1,0 +1,58 @@
+p {
+    color: green;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    }
+body {
+    background-color: cornsilk
+    }
+li {
+    color: red;
+    font-family: Arial;
+}
+h1 {
+    color: blue;
+    font-family: Calibri, Helvetica;
+    text-align: center;
+}
+h2 {
+    color: purple;
+    font-family: Calibri, Helvetica;
+    text-align: center;
+}
+.goto {
+    text-align: center;
+    font-size: 25px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+}
+
+#sitetitle:link {
+    color: blue;
+    text-decoration: underline overline;
+    font-size: 35px;
+    font-family: Calibri, Helvetica;
+    text-align: center;
+    display: block;
+
+}
+
+#sitetitle:visited {
+    color: blue;
+    text-decoration: underline overline;
+    font-size: 35px;
+    font-family: Calibri, Helvetica;
+    text-align: center;
+    display: block;
+
+}
